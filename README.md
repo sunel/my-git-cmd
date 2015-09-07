@@ -12,48 +12,61 @@
   
 ```
 
+#### Same merge conflict every time
+
 ```shell
   git config --local rerere.enabled true
   
 ```
 
-if you have a branch that should always defer to upstream changes
+##### If you have a branch that should always defer to upstream changes
 
 ```shell
   git config --local branch.master.rebase true
   
 ```
 
+#### To check status in short
 ```shell
   git status -s
 
 ```
 
+#### Only stage commits that you need interactively 
 ```shell
   git add -p
 
 ```
 
-```shell
-  
-  git diff 
-  
-  git diff --stage
-  
-  git diff HEAD
-  
-```
-
+#### Unstage your files 
 ```shell
   git reset --hard
   
 ```
 
+#### Unstage your files interactively
+```shell
+  git reset  -p
+  
+```
+
+#### Diff your commits
+```shell
+  
+  git diff #diff unstaged files
+  
+  git diff --stage #diff staged files
+  
+  git diff HEAD #diff both files
+  
+```
+
+#### View git log
 ```shell
   git log --oneline --decorate --all --graph 
 
 ```
-
+#### Steps to merge 
 ```shell
   git merge [branch]
   #if conflict then
@@ -85,13 +98,13 @@ if you have a branch that should always defer to upstream changes
 
 ```
 
-
+#### Reset the merged commits
 ```shell
   git reset --hard [commit id]
   
 ```
 
-### Fast Forward Commit
+#### Fast Forward Commit
 
 ```shell
 
@@ -108,12 +121,15 @@ if you have a branch that should always defer to upstream changes
   git merge [branch]  --no -ff
 
 ```
-### To Rewrite History
+#### To Rewrite History
 
 ```shell
   git rebase -i HEAD~[number of commit]
 
 ```
+
+#### To search in old commits 
+
 ```shell
   git bisect start
   
@@ -131,14 +147,4 @@ if you have a branch that should always defer to upstream changes
 ```shell
   git pull --rebase
   
-```
-
-```shell
-
-```
-```shell
-
-```
-```shell
-
 ```
