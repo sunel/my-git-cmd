@@ -63,7 +63,7 @@
 
 #### View git log
 ```shell
-  git log --oneline --decorate --all --graph 
+  git log --oneline --all --decorate --graph --pretty=format:"%h - %an [%ar] : %s"
 
 ```
 #### Steps to merge 
