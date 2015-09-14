@@ -104,6 +104,17 @@
   
 ```
 
+#### To get all deleted file list 
+
+```shell
+  git log --diff-filter=D --summary | grep delete
+  
+  git log --all -- <path-to-file>
+  
+  git show <SHA> -- <path-to-file>
+  
+```
+
 #### Fast Forward Commit
 
 ```shell
