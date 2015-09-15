@@ -7,7 +7,7 @@
 ```shell
   git init
   git config --local user.name "Sunel Tr"
-  git config --local user.name "sunelbe@gmail.com"
+  git config --local user.email "sunelbe@gmail.com"
   git config --local color.ui auto
   
 ```
