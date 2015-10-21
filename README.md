@@ -38,6 +38,12 @@
 
 ```
 
+#### Edit an incorrect commit message
+```shell
+git commit --amend -m "New commit message"
+
+````
+
 #### Unstage your files 
 ```shell
   git reset --hard
