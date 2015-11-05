@@ -38,6 +38,13 @@
 
 ```
 
+#### Ignore watching/tracking a particular dir/file
+```shell
+  git update-index --assume-unchanged <file>
+
+```
+
+
 #### Edit an incorrect commit message
 ```shell
 git commit --amend -m "New commit message"
