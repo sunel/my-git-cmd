@@ -166,9 +166,15 @@ git commit --amend -m "New commit message"
   git bisect reset
   
 ```
-###Git Pull Causes a Merge
+### Git Pull Causes a Merge
 
 ```shell
   git pull --rebase
+  
+```
+#### To view all commites for a file 
+
+```shell
+  git log --follow filename
   
 ```
