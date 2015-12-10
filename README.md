@@ -189,3 +189,11 @@ git commit --amend -m "New commit message"
   git branch -u origin/serverfix
   
 ```
+
+#### To view all remote branchs
+
+```shell
+  git ls-remote --heads origin | sed 's?.*refs/heads/??'
+  
+```
+
