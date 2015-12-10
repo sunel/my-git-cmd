@@ -178,3 +178,14 @@ git commit --amend -m "New commit message"
   git log --follow filename
   
 ```
+#### To track a remote branch 
+
+```shell
+  git checkout --track origin/serverfix
+  
+  git checkout -b sf origin/serverfix
+  
+  #already have branch
+  git branch -u origin/serverfix
+  
+```
