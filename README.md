@@ -197,3 +197,10 @@ git commit --amend -m "New commit message"
   
 ```
 
+#### To Delete remote branchs
+
+```shell
+  git push origin --delete <branchName>
+  
+```
+
