@@ -204,3 +204,12 @@ git commit --amend -m "New commit message"
   
 ```
 
+
+#### To merge with conflict occurrence 
+
+```shell
+  git merge <branchName> --strategy-option (theirs | ours )
+  
+```
+
+
