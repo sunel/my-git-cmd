@@ -212,4 +212,11 @@ git commit --amend -m "New commit message"
   
 ```
 
+#### To tell which commit a tag points to in Git
+
+```shell
+  git show-ref --tags
+  
+```
+
 
