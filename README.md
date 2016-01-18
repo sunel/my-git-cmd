@@ -219,4 +219,10 @@ git commit --amend -m "New commit message"
   
 ```
 
+#### To Make an existing Git branch track a remote branch
+
+```shell
+  git branch -u upstream/foo foo
+  
+```
 
